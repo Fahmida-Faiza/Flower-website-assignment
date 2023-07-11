@@ -25,6 +25,7 @@ body {
 
 .banner-header {
     max-width: 40%;
+    font-weight: 800;
 }
 
 .banner-image {
@@ -55,6 +56,7 @@ body {
 /* 2nd part */
 .our-featured {
     display: flex;
+    
 
 }
 
@@ -77,36 +79,102 @@ body {
 
 .our-image {
     display: flex;
-   margin-top: 80px;
-   margin-left: 200px;
-   gap:20px;
-   height: 400px;
-   width: 700px;
+    margin-top: 80px;
+    margin-left: 70px;
+   padding: 0 120px;
+    /* height: 400px;
+   width: 700px; */
 
 
 
 
 }
 
-.image-bg1{
+.image-bg1 {
     border-radius: 300px 300px 0px 0px;
-        background: rgba(167, 33, 98, 0.15);
-       
-   padding-left: 50px;
-   padding-top: 100px;
-   padding-right: 70px;
+    background: rgba(167, 33, 98, 0.15);
+
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 70px;
+
+    height: 300px;
+    width: 230px;
 }
-.image-bg2{
+
+.image-bg2 {
 
     border-radius: 300px 300px 0px 0px;
-        background: rgba(5, 151, 160, 0.15);
-        padding-left: 50px;
-            padding-top: 100px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 70px;
+    height: 300px;
+    width: 230px;
 }
-.image-bg3{
+
+.image-bg3 {
     border-radius: 300px 300px 0px 0px;
-        background: rgba(71, 125, 17, 0.15);
-        padding-left: 60px;
-            padding-top: 70px;
-            padding-right: 80px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 70px;
+   
+/* border: 2px solid red; */
+height: 300px;
+    width: 230px;
+
+
+}
+
+.link {
+
+  color: #272727;
+text-align: center;
+    /* border: 2px solid red; */
+padding: 120px;
+}
+
+
+/* 3rd part */
+.Discount-container{
+margin-top: 200px;
+        display: flex;
+            gap: 100px;
+            padding: 180px 20px 50px 350px;
+            font-weight: 800;
+            
+                height: 300px;
+                font-size: 20px;
+                border-radius: 8px;
+                    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-image{
+    width: 220px;
+        height: 300px;
+        /* border: 2px solid blue; */
+
+        
+}
+
+.btn{
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.text-primary{
+    color:#E55473;
+}
+
+.instragram-image{
+display: flex;
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 232px;
+        height: 296px;
+        gap:20px;
+}
+.instragram-container,.our-title{
+margin-left: 29px;
 }
