@@ -56,7 +56,7 @@ body {
 /* 2nd part */
 .our-featured {
     display: flex;
-    
+
 
 }
 
@@ -81,7 +81,7 @@ body {
     display: flex;
     margin-top: 80px;
     margin-left: 70px;
-   padding: 0 120px;
+    padding: 0 120px;
     /* height: 400px;
    width: 700px; */
 
@@ -119,9 +119,9 @@ body {
     padding-left: 50px;
     padding-top: 100px;
     padding-right: 70px;
-   
-/* border: 2px solid red; */
-height: 300px;
+
+    /* border: 2px solid red; */
+    height: 300px;
     width: 230px;
 
 
@@ -129,52 +129,160 @@ height: 300px;
 
 .link {
 
-  color: #272727;
-text-align: center;
+    color: #272727;
+    text-align: center;
     /* border: 2px solid red; */
-padding: 120px;
+    padding: 120px;
 }
 
 
 /* 3rd part */
-.Discount-container{
-margin-top: 200px;
-        display: flex;
-            gap: 100px;
-            padding: 180px 20px 50px 350px;
-            font-weight: 800;
-            
-                height: 300px;
-                font-size: 20px;
-                border-radius: 8px;
-                    background: rgba(229, 84, 115, 0.05);
+.Discount-container {
+    margin-top: 200px;
+    display: flex;
+    gap: 100px;
+    padding: 180px 20px 50px 350px;
+    font-weight: 800;
+
+    height: 300px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
 
-.discount-image{
+.discount-image {
     width: 220px;
-        height: 300px;
-        /* border: 2px solid blue; */
+    height: 300px;
+    /* border: 2px solid blue; */
 
-        
+
 }
 
-.btn{
+.btn {
     justify-content: center;
     margin-left: 70px;
 }
 
-.text-primary{
-    color:#E55473;
+.text-primary {
+    color: #E55473;
 }
 
-.instragram-image{
-display: flex;
+.instragram-image {
+    display: flex;
     margin-top: 40px;
     margin-left: 180px;
     width: 232px;
-        height: 296px;
-        gap:20px;
+    height: 296px;
+    gap: 20px;
 }
-.instragram-container,.our-title{
-margin-left: 29px;
+
+
+/* /////////////////////////////////////////// */
+.instragram-container,
+.our-title {
+    /* margin-left: 29px;
+margin-top: 250px; */
+    /* border:2px solid blue; */
+
+}
+
+.instragram-container2 {
+    /* border :2px solid yellow; */
+    margin-top: 240px;
+
+
+
+
+}
+
+.background {
+    width: 1100px;
+    height: 349px;
+    margin-left: 170px;
+
+
+}
+
+
+
+.our-description2,
+.input-form {
+    position: relative;
+    /* border:2px solid green; */
+    bottom: 350px;
+
+}
+
+
+
+
+
+
+input {
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    margin-left: 80px;
+    border: 0;
+    padding-left: 12px;
+
+
+
+}
+
+.btn2 {
+    max-width: 30%;
+}
+
+.input-form {
+    display: flex;
+    gap: 10px;
+    padding-left: 300px;
+    margin-top: 40px;
+    /* margin-top: 60px; */
+}
+
+
+
+
+/* footer */
+
+
+.name {
+
+    color: white;
+    padding-top: 130px;
+  
+   
+}
+
+.new {
+color: rgba(255, 255, 255, 0.90);
+position: relative;
+right: 130px;
+   bottom: 50px;
+   
+
+    font-size: 18px;
+    
+    font-weight: 400;
+
+}
+
+.footer-container {
+    background-color: #272727;
+    height: 430px;
+    justify-content: center;
+
+
+}
+.foot{
+
+    color:gray;
+position: relative;
+bottom: 90px;
+right: 50px;
+   
 }
